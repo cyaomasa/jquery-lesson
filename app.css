@@ -1,22 +1,25 @@
-.box1 {
-  background-color: #FFFFFF;
-  height: 200px;
-  width: 200px;
-  float: left;
-}
+@charset "UTF-8";
 
-.bg1 {
-  background-color: #FFAAAA;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.bg2 {
-  background-color: #FFBBBB;
+h1 {
+  text-align: center;
+  margin: 50px 0;
 }
-
-.bg3 {
-  background-color: #FFCCCC;
+.box {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-color: #eee;
 }
-
-.bg4 {
-  background-color: #FFDDDD;
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#back img {
+  width: 50px;
 }
